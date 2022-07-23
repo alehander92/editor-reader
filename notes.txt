@@ -1,0 +1,33 @@
+
+tried:
+
+orca on linux:
+
+* ok for shell, reads a bit too much, seems to have strange numpad up/down arrow handling/overloading? normal ones seem to work fine
+* not working mostly for sublime
+* working mostly for vim, but can have more programming language-aware logic/context detailed reading/indent/syntax help
+
+looked a bit through espeak and speechd
+  can set languages and pauses with ,
+
+todo
+
+* write a simple vim/nvim plugin or vscode plugin if more practical/easier
+  * detect actions and read using parser/tokens or tree-sitter
+  * detect special shortcuts and re-read context or in different mode
+  * use it ourself for some tasks/testing
+  * eventually try to port for other editor: vscode? maybe sublime?
+  * somehow make it possible to easily test for outsiders: personally or with easier instructions
+  * try to find users like mariana/slavi/online people or others for opinion/test?
+  * prepare for showing, maybe try to generalize a bit for shell or using some kind of lib? so at least some parts are reusable?
+
+try vscode with orca and eventually other / windows?
+
+maybe integrate/pr into orca?
+or base on it?
+or at least show them/other people?
+
+orca can use the numpad for going around and re-reading
+
+maybe try some windows reade
+

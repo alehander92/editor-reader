@@ -1,0 +1,3 @@
+[submodule "editor-reader/parsers/tree-sitter-java"]
+	path = editor-reader/parsers/tree-sitter-java
+	url = https://github.com/tree-sitter/tree-sitter-java.git
